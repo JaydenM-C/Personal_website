@@ -73,26 +73,74 @@ Wichmann, S., Holman, E. W., &amp;amp; Brown, C. H. (Eds.). (2016). The ASJP dat
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <title>CoEDL Summer School 2018</title>
+      <link>/talk/coedl_summer_2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +1000</pubDate>
       
-      <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
+      <guid>/talk/coedl_summer_2018/</guid>
+      <description>&lt;p&gt;In November, I&amp;rsquo;ll be attending CoEDL&amp;rsquo;s Summer School for 2018. I believe I&amp;rsquo;ll be giving a short presentation in the course &lt;em&gt;Visualizing Language Data for Analysis and Communication&lt;/em&gt; (&lt;a href=&#34;http://www.visualizationwhiteboard.com/&#34; target=&#34;_blank&#34;&gt;Lydia Byrne&lt;/a&gt;) on my strategies for visualising phylogenetic signal in phonotactic characters. I&amp;rsquo;m also greatly looking forward to the course &lt;em&gt;Machines can do the work, can&amp;rsquo;t they? Machine Learning for linguists&lt;/em&gt; by &lt;a href=&#34;https://ai.google/research/people/DaanvanEsch&#34; target=&#34;_blank&#34;&gt;Daan van Esch&lt;/a&gt; and guests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phylogeny in phonotactics: A multivariate approach for stronger historical signal</title>
+      <link>/talk/macklin-cordes_phylogeny_2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/talk/macklin-cordes_phylogeny_2018/</guid>
+      <description>
 
-&lt;/div&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fig1.png&#34; alt=&#34;$Kmult$ for biphone transition frequency dataset. Observed $Kmult$ is indicated by the arrow. $Kmult$ for random permutations of the dataset are plotted as a histogram.&#34; /&gt;
 
 
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 1&lt;/h4&gt;
+  &lt;p&gt;
+    $Kmult$ for biphone transition frequency dataset. Observed $Kmult$ is indicated by the arrow. $Kmult$ for random permutations of the dataset are plotted as a histogram.
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
 
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+&lt;/figure&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fig2.png&#34; alt=&#34;$Kmult$ for sound class transition frequency dataset.&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Figure 2&lt;/h4&gt;
+  &lt;p&gt;
+    $Kmult$ for sound class transition frequency dataset.
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Adams, Dean C. 2014. “A Generalized K Statistic for Estimating Phylogenetic Signal from Shape and Other High-Dimensional Multivariate Data.” Systematic Biology 63 (5): 685–97. doi:10.1093/sysbio/syu030.&lt;/p&gt;
+
+&lt;p&gt;Blomberg, Simon P., Theodore Garland, and Anthony R. Ives. 2003. “Testing for Phylogenetic Signal in Comparative Data: Behavioral Traits Are More Labile.” Evolution 57 (4): 717–45. &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.0014-3820.2003.tb00285.x/abstract&#34; target=&#34;_blank&#34;&gt;http://onlinelibrary.wiley.com/doi/10.1111/j.0014-3820.2003.tb00285.x/abstract&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bouckaert, Remco R., Claire Bowern, and Quentin D. Atkinson. 2018. “The Origin and Expansion of Pama–Nyungan Languages Across Australia.” Nature Ecology &amp;amp; Evolution 2 (4): 741–49. doi:10.1038/s41559-018-0489-3.&lt;/p&gt;
+
+&lt;p&gt;Kolipakam, Vishnupriya, Fiona M. Jordan, Michael Dunn, Simon J. Greenhill, Remco R. Bouckaert, Russell D. Gray, and Annemarie Verkerk. 2018. “A Bayesian Phylogenetic Study of the Dravidian Language Family.” Royal Society Open Science 5 (3): 171504. doi:10.1098/rsos.171504.&lt;/p&gt;
+
+&lt;p&gt;List, Johann-Mattis, Mary Walworth, Simon J. Greenhill, Tiago Tresoldi, and Robert Forkel. 2018. “Sequence Comparison in Computational Historical Linguistics.” Journal of Language Evolution lzy006. doi:10.1093/jole/lzy006.&lt;/p&gt;
 </description>
     </item>
     

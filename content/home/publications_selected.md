@@ -32,3 +32,6 @@ list_format = 4
 publication_type = "-1"
 +++
 
+See my [ORCID profile](https://orcid.org/0000-0003-1910-3969) for my full publication record. I also keep my [Academia profile](https://uq.academia.edu/JLMacklinCordes) up-to-date with PDFs (requires a free account for access).
+
+For further details or missing PDF requests, just send me an email---I'd be very happy to get in touch!

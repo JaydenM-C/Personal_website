@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Jayden L. Macklin-Cordes</copyright>
-    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ALS</title>
+      <link>/tags/als/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/als/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ALT</title>
@@ -36,6 +45,24 @@
       <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
       
       <guid>/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoEDL</title>
+      <link>/tags/coedl/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/coedl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational methods</title>
+      <link>/tags/computational-methods/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/computational-methods/</guid>
       <description></description>
     </item>
     
@@ -67,6 +94,24 @@
     </item>
     
     <item>
+      <title>Historical linguistics</title>
+      <link>/tags/historical-linguistics/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/historical-linguistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linguistic phylogenetics</title>
+      <link>/tags/linguistic-phylogenetics/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/linguistic-phylogenetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linguistic typology</title>
       <link>/tags/linguistic-typology/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
@@ -90,6 +135,15 @@
       <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
       
       <guid>/tags/pama-nyungan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phonology</title>
+      <link>/tags/phonology/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/phonology/</guid>
       <description></description>
     </item>
     
@@ -121,11 +175,29 @@
     </item>
     
     <item>
+      <title>QITL-6</title>
+      <link>/tags/qitl-6/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/qitl-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sahul</title>
+      <link>/tags/sahul/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/sahul/</guid>
       <description></description>
     </item>
     
