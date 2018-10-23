@@ -7,18 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Jayden L. Macklin-Cordes</copyright>
-    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +1000</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +1000</pubDate>
+      <title>High-definition phonotactic typology in Sahul: Choosing the data-rich approach</title>
+      <link>/publication/macklin-cordes_high-definition_2017/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/publication/macklin-cordes_high-definition_2017/</guid>
+      <description>References Baker, B. (2014). Word structure in Australian languages. In H. Koch &amp;amp; R. Nordlinger, The Languages and Linguistics of Australia: A Comprehensive Guide (pp. 139–214). Walter de Gruyter GmbH &amp;amp; Co KG.
+Blasi, D. E., Wichmann, S., Hammarström, H., Stadler, P. F., &amp;amp; Christiansen, M. H. (2016). Sound–meaning association biases evidenced across thousands of languages. Proceedings of the National Academy of Sciences, 113(39), 10818–10823.
+Bowern, C., &amp;amp; Atkinson, Q.</description>
+    </item>
+    
+    <item>
+      <title>Robots who read grammars [poster]</title>
+      <link>/publication/macklin-cordes_robots_2017/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/publication/macklin-cordes_robots_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-definition phonotactics reflect linguistic pasts</title>
+      <link>/publication/macklin-cordes_high-definition_2015/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +1000</pubDate>
+      
+      <guid>/publication/macklin-cordes_high-definition_2015/</guid>
+      <description></description>
     </item>
     
   </channel>

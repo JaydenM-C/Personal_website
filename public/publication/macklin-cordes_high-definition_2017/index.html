@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49.2" />
+  <meta name="author" content="Jayden Macklin-Cordes">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="The challenge for linguistic typology, of how best to compare like with like among different languages, is a constant concern but also an evolving one. As automated analyses using large-scale cross-linguistic databases (for example, Blasi et al., 2016) become more popular, typology becomes ever more sensitive to decisions made about how linguistic data is coded. Relatedly, challenges present themselves when expanding quantitative techniques from pilot studies to larger domains. Here I discuss such challenges and compare two kinds of solutions for the case of a recent methodological advance in phonological typology, arguing against one widely used approach based on data impoverishment, in favour of a novel, data-rich approach.
+ 
+ I first recap a quantitative method for investigating the phonotactic typology of Australian languages, which can generate several hundred characters (i.e., variables) per language (Macklin-Cordes &amp; Round, 2015). The phonotactics of languages may be compared, in the simplest case, in terms of which sequences of segments each language permits or does not permit, and this kind of data is often provided in descriptive grammars (Fig. 1). On these terms, Australian languages have been described as notably homogenous in their phonotactic systems (Hamilton, 1996), as in their phonological systems more generally (Dixon, 1980; Baker, 2014). However, Gasser &amp; Bowern (2014) demonstrate that greater diversity among phonological inventories of Australian languages emerges when matters of frequency are considered. We extended this idea to phonotactics. For all possible two-segment sequences in a language, we calculate the frequency of the occurrence of a&#43;b relative to all sequences of a&#43;X in the language’s vocabulary. This yields an n×n matrix of continuous characters for each language (Fig. 2). These data can be compared between languages and even form the basis for diachronic investigation. A case study examining two Pama-Nyungan subgroups, Yolngu and Ngumpin-Yapa, found evidence of phylogenetic signal across continuous phonotactic characters, extracted as per the method described here; that is, variation among the data fits the hypothesis that the data evolved along an independently derived phylogeny (from Bowern &amp; Atkinson, 2012).
+ 
+ These tentative findings make us optimistic that our avenue of methodological development may drive future insight in typology and historical linguistics. However, expansion to areas with a relatively high diversity of segment types is a challenge. Non-trivial data-processing decisions must be made, since two-segment sequences may only be compared between languages when both segments are considered shared between the languages in question. A large diversity of segment types will therefore result in too sparse a dataset, where mismatches between languages occur. I compare two approaches which respond to this problem, in the context of expanding our proof-of- concept to the rest of Sahul, the continent of Australia and New Guinea: The first approach is that of the Automated Similarity Judgement Program (ASJP; Wichmann et al., 2016) and subsequently used in several large-scale comparative studies (Blasi et al., 2016; Holman et al., 2011), which is to bin segments into broader segment classes (for example, an ‘N’ bin for all nasal consonants). The second approach is to break up segments into their constituent features. I present evidence which favours the second approach. The first approach results in information loss and can introduce biases into the data (Macklin-Cordes, Moran &amp; Round, 2016). In contrast, the second approach enables a rich level of phonological diversity to be represented in a commensurate fashion, while maintaining a large enough collection of characters for data-hungry statistical algorithms.
+ 
+ Phonological typology is as sensitive as ever to how data is coded. In the face of upscaling challenges, I present one methodological pathway for comparing high-definition phonotactics over the diverse macro-area of Sahul.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/macklin-cordes_high-definition_2017/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Jayden Macklin-Cordes">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Jayden Macklin-Cordes">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/macklin-cordes_high-definition_2017/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jayden Macklin-Cordes">
+  <meta property="og:url" content="/publication/macklin-cordes_high-definition_2017/">
+  <meta property="og:title" content="High-definition phonotactic typology in Sahul: Choosing the data-rich approach | Jayden Macklin-Cordes">
+  <meta property="og:description" content="The challenge for linguistic typology, of how best to compare like with like among different languages, is a constant concern but also an evolving one. As automated analyses using large-scale cross-linguistic databases (for example, Blasi et al., 2016) become more popular, typology becomes ever more sensitive to decisions made about how linguistic data is coded. Relatedly, challenges present themselves when expanding quantitative techniques from pilot studies to larger domains. Here I discuss such challenges and compare two kinds of solutions for the case of a recent methodological advance in phonological typology, arguing against one widely used approach based on data impoverishment, in favour of a novel, data-rich approach.
+ 
+ I first recap a quantitative method for investigating the phonotactic typology of Australian languages, which can generate several hundred characters (i.e., variables) per language (Macklin-Cordes &amp; Round, 2015). The phonotactics of languages may be compared, in the simplest case, in terms of which sequences of segments each language permits or does not permit, and this kind of data is often provided in descriptive grammars (Fig. 1). On these terms, Australian languages have been described as notably homogenous in their phonotactic systems (Hamilton, 1996), as in their phonological systems more generally (Dixon, 1980; Baker, 2014). However, Gasser &amp; Bowern (2014) demonstrate that greater diversity among phonological inventories of Australian languages emerges when matters of frequency are considered. We extended this idea to phonotactics. For all possible two-segment sequences in a language, we calculate the frequency of the occurrence of a&#43;b relative to all sequences of a&#43;X in the language’s vocabulary. This yields an n×n matrix of continuous characters for each language (Fig. 2). These data can be compared between languages and even form the basis for diachronic investigation. A case study examining two Pama-Nyungan subgroups, Yolngu and Ngumpin-Yapa, found evidence of phylogenetic signal across continuous phonotactic characters, extracted as per the method described here; that is, variation among the data fits the hypothesis that the data evolved along an independently derived phylogeny (from Bowern &amp; Atkinson, 2012).
+ 
+ These tentative findings make us optimistic that our avenue of methodological development may drive future insight in typology and historical linguistics. However, expansion to areas with a relatively high diversity of segment types is a challenge. Non-trivial data-processing decisions must be made, since two-segment sequences may only be compared between languages when both segments are considered shared between the languages in question. A large diversity of segment types will therefore result in too sparse a dataset, where mismatches between languages occur. I compare two approaches which respond to this problem, in the context of expanding our proof-of- concept to the rest of Sahul, the continent of Australia and New Guinea: The first approach is that of the Automated Similarity Judgement Program (ASJP; Wichmann et al., 2016) and subsequently used in several large-scale comparative studies (Blasi et al., 2016; Holman et al., 2011), which is to bin segments into broader segment classes (for example, an ‘N’ bin for all nasal consonants). The second approach is to break up segments into their constituent features. I present evidence which favours the second approach. The first approach results in information loss and can introduce biases into the data (Macklin-Cordes, Moran &amp; Round, 2016). In contrast, the second approach enables a rich level of phonological diversity to be represented in a commensurate fashion, while maintaining a large enough collection of characters for data-hungry statistical algorithms.
+ 
+ Phonological typology is as sensitive as ever to how data is coded. In the face of upscaling challenges, I present one methodological pathway for comparing high-definition phonotactics over the diverse macro-area of Sahul.">
+  
+  
+    
+  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-12-13T00:00:00&#43;10:00">
+  
+  <meta property="article:modified_time" content="2017-12-13T00:00:00&#43;10:00">
+  
+
+  
+
+  
+
+  <title>High-definition phonotactic typology in Sahul: Choosing the data-rich approach | Jayden Macklin-Cordes</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Jayden Macklin-Cordes</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">High-definition phonotactic typology in Sahul: Choosing the data-rich approach</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Jayden L. Macklin-Cordes</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2017-12-13 00:00:00 &#43;1000 AEST" itemprop="datePublished">
+    <time datetime="2017-12-13 00:00:00 &#43;1000 AEST" itemprop="dateModified">
+      2017-12-13
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jayden Macklin-Cordes">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=High-definition%20phonotactic%20typology%20in%20Sahul%3a%20Choosing%20the%20data-rich%20approach&amp;url=%2fpublication%2fmacklin-cordes_high-definition_2017%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fmacklin-cordes_high-definition_2017%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fmacklin-cordes_high-definition_2017%2f&amp;title=High-definition%20phonotactic%20typology%20in%20Sahul%3a%20Choosing%20the%20data-rich%20approach"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fmacklin-cordes_high-definition_2017%2f&amp;title=High-definition%20phonotactic%20typology%20in%20Sahul%3a%20Choosing%20the%20data-rich%20approach"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=High-definition%20phonotactic%20typology%20in%20Sahul%3a%20Choosing%20the%20data-rich%20approach&amp;body=%2fpublication%2fmacklin-cordes_high-definition_2017%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>The challenge for linguistic typology, of how best to compare like with like among different languages, is a constant concern but also an evolving one. As automated analyses using large-scale cross-linguistic databases (for example, Blasi et al., 2016) become more popular, typology becomes ever more sensitive to decisions made about how linguistic data is coded. Relatedly, challenges present themselves when expanding quantitative techniques from pilot studies to larger domains. Here I discuss such challenges and compare two kinds of solutions for the case of a recent methodological advance in phonological typology, arguing against one widely used approach based on data impoverishment, in favour of a novel, data-rich approach.</p>
+
+<p>I first recap a quantitative method for investigating the phonotactic typology of Australian languages, which can generate several hundred characters (i.e., variables) per language (Macklin-Cordes &amp; Round, 2015). The phonotactics of languages may be compared, in the simplest case, in terms of which sequences of segments each language permits or does not permit, and this kind of data is often provided in descriptive grammars (Fig. 1). On these terms, Australian languages have been described as notably homogenous in their phonotactic systems (Hamilton, 1996), as in their phonological systems more generally (Dixon, 1980; Baker, 2014). However, Gasser &amp; Bowern (2014) demonstrate that greater diversity among phonological inventories of Australian languages emerges when matters of frequency are considered. We extended this idea to phonotactics. For all possible two-segment sequences in a language, we calculate the frequency of the occurrence of a+b relative to all sequences of a+X in the language’s vocabulary. This yields an n×n matrix of continuous characters for each language (Fig. 2). These data can be compared between languages and even form the basis for diachronic investigation. A case study examining two Pama-Nyungan subgroups, Yolngu and Ngumpin-Yapa, found evidence of phylogenetic signal across continuous phonotactic characters, extracted as per the method described here; that is, variation among the data fits the hypothesis that the data evolved along an independently derived phylogeny (from Bowern &amp; Atkinson, 2012).</p>
+
+<p>These tentative findings make us optimistic that our avenue of methodological development may drive future insight in typology and historical linguistics. However, expansion to areas with a relatively high diversity of segment types is a challenge. Non-trivial data-processing decisions must be made, since two-segment sequences may only be compared between languages when both segments are considered shared between the languages in question. A large diversity of segment types will therefore result in too sparse a dataset, where mismatches between languages occur. I compare two approaches which respond to this problem, in the context of expanding our proof-of- concept to the rest of Sahul, the continent of Australia and New Guinea: The first approach is that of the Automated Similarity Judgement Program (ASJP; Wichmann et al., 2016) and subsequently used in several large-scale comparative studies (Blasi et al., 2016; Holman et al., 2011), which is to bin segments into broader segment classes (for example, an ‘N’ bin for all nasal consonants). The second approach is to break up segments into their constituent features. I present evidence which favours the second approach. The first approach results in information loss and can introduce biases into the data (Macklin-Cordes, Moran &amp; Round, 2016). In contrast, the second approach enables a rich level of phonological diversity to be represented in a commensurate fashion, while maintaining a large enough collection of characters for data-hungry statistical algorithms.</p>
+
+<p>Phonological typology is as sensitive as ever to how data is coded. In the face of upscaling challenges, I present one methodological pathway for comparing high-definition phonotactics over the diverse macro-area of Sahul.</p>
+</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">12th Conference of the Association of Linguistic Typology</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            2017-12-13
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-12 col-md-9">
+
+            
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ndownloader.figshare.com/files/10405380" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/macklin-cordes_high-definition_2017/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.6084/m9.figshare.5861067" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+
+<h3 id="references">References</h3>
+
+<p>Baker, B. (2014). Word structure in Australian languages. In H. Koch &amp; R. Nordlinger, The Languages and Linguistics of Australia: A Comprehensive Guide (pp. 139–214). Walter de Gruyter GmbH &amp; Co KG.</p>
+
+<p>Blasi, D. E., Wichmann, S., Hammarström, H., Stadler, P. F., &amp; Christiansen, M. H. (2016). Sound–meaning association biases evidenced across thousands of languages. Proceedings of the National Academy of Sciences, 113(39), 10818–10823.</p>
+
+<p>Bowern, C., &amp; Atkinson, Q. (2012). Computational Phylogenetics and the Internal Structure of Pama-Nyungan. Language, 88(4), 817–845.</p>
+
+<p>Dixon, R. M. W. (1980). The languages of Australia. Cambridge; New York: Cambridge University Press.</p>
+
+<p>Gasser, E., &amp; Bowern, C. (2014). Revisiting Phonotactic Generalizations in Australian Languages. Proceedings of the Annual Meetings on Phonology.</p>
+
+<p>Hamilton, P. J. (1996). Phonetic constraints and markedness in the phonotactics of Australian Aboriginal languages (Ph. D. thesis). University of Toronto (Canada).</p>
+
+<p>Holman, E. W., Brown, C. H., Wichmann, S., Müller, A., Velupillai, V., Hammarström, H., &hellip; Egorov, D. (2011). Automated dating of the world’s language families based on lexical similarity. Current Anthropology, 52(6), 841–875.</p>
+
+<p>Macklin-Cordes, J. L., Moran, S. P., &amp; Round, E. R. (2016). Evaluating information loss from phonological dimensionality reduction. Presented at the SST2016 Satellite Symposium: The role of predictability in shaping human language sound patterns, Western Sydney University, Australia. <a href="https://doi.org/https://dx.doi.org/10.6084/m9.figshare.4465976" target="_blank">https://doi.org/https://dx.doi.org/10.6084/m9.figshare.4465976</a></p>
+
+<p>Macklin-Cordes, J. L., &amp; Round, E. R. (2015). High-definition phonotactics reflect linguistic pasts. In J. Wahle, M. Köllner, H. Baayen, G. Jäger, &amp; T. Baayen-Oudshoorn (Eds.), Proceedings of the 6th Conference on Quantitative Investigations in Theoretical Linguistics. Tübingen: University of Tübingen.</p>
+
+<p>Nichols, J. (1997). Sprung from two common sources: Sahul as a linguistic area. In P. McConvell &amp; N. Evans (Eds.), Archaeology and Linguistics: Aboriginal Australia in global perspective. Melbourne: Oxford University Press.
+Wichmann, S., Holman, E. W., &amp; Brown, C. H. (Eds.). (2016). The ASJP database (version 17).</p>
+</div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/phylogenetic-signal/">Phylogenetic signal</a>
+  
+  <a class="badge badge-light" href="/tags/phylogenetic-comparative-methods/">Phylogenetic comparative methods</a>
+  
+  <a class="badge badge-light" href="/tags/phonotactics/">Phonotactics</a>
+  
+  <a class="badge badge-light" href="/tags/pama-nyungan/">Pama-Nyungan</a>
+  
+  <a class="badge badge-light" href="/tags/linguistic-typology/">Linguistic typology</a>
+  
+  <a class="badge badge-light" href="/tags/alt/">ALT</a>
+  
+</div>
+
+
+
+
+  </div>
+</div>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 Jayden L. Macklin-Cordes &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

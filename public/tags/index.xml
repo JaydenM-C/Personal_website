@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Jayden L. Macklin-Cordes</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +1000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ALT</title>
+      <link>/tags/alt/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/alt/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Academic</title>
@@ -18,6 +27,24 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
       
       <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>/tags/automation/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>/tags/data/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/data/</guid>
       <description></description>
     </item>
     
@@ -40,11 +67,74 @@
     </item>
     
     <item>
+      <title>Linguistic typology</title>
+      <link>/tags/linguistic-typology/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/linguistic-typology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ngumpin-Yapa</title>
+      <link>/tags/ngumpin-yapa/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/ngumpin-yapa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pama-Nyungan</title>
+      <link>/tags/pama-nyungan/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/pama-nyungan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phonotactics</title>
+      <link>/tags/phonotactics/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/phonotactics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic comparative methods</title>
+      <link>/tags/phylogenetic-comparative-methods/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/phylogenetic-comparative-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phylogenetic signal</title>
+      <link>/tags/phylogenetic-signal/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/phylogenetic-signal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yolngu</title>
+      <link>/tags/yolngu/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +1000</pubDate>
+      
+      <guid>/tags/yolngu/</guid>
       <description></description>
     </item>
     

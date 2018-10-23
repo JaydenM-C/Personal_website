@@ -31,13 +31,45 @@
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +1000</pubDate>
+      <title>High-definition phonotactic typology in Sahul: Choosing the data-rich approach</title>
+      <link>/publication/macklin-cordes_high-definition_2017/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +1000</pubDate>
       
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+      <guid>/publication/macklin-cordes_high-definition_2017/</guid>
+      <description>
+
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;Baker, B. (2014). Word structure in Australian languages. In H. Koch &amp;amp; R. Nordlinger, The Languages and Linguistics of Australia: A Comprehensive Guide (pp. 139–214). Walter de Gruyter GmbH &amp;amp; Co KG.&lt;/p&gt;
+
+&lt;p&gt;Blasi, D. E., Wichmann, S., Hammarström, H., Stadler, P. F., &amp;amp; Christiansen, M. H. (2016). Sound–meaning association biases evidenced across thousands of languages. Proceedings of the National Academy of Sciences, 113(39), 10818–10823.&lt;/p&gt;
+
+&lt;p&gt;Bowern, C., &amp;amp; Atkinson, Q. (2012). Computational Phylogenetics and the Internal Structure of Pama-Nyungan. Language, 88(4), 817–845.&lt;/p&gt;
+
+&lt;p&gt;Dixon, R. M. W. (1980). The languages of Australia. Cambridge; New York: Cambridge University Press.&lt;/p&gt;
+
+&lt;p&gt;Gasser, E., &amp;amp; Bowern, C. (2014). Revisiting Phonotactic Generalizations in Australian Languages. Proceedings of the Annual Meetings on Phonology.&lt;/p&gt;
+
+&lt;p&gt;Hamilton, P. J. (1996). Phonetic constraints and markedness in the phonotactics of Australian Aboriginal languages (Ph. D. thesis). University of Toronto (Canada).&lt;/p&gt;
+
+&lt;p&gt;Holman, E. W., Brown, C. H., Wichmann, S., Müller, A., Velupillai, V., Hammarström, H., &amp;hellip; Egorov, D. (2011). Automated dating of the world’s language families based on lexical similarity. Current Anthropology, 52(6), 841–875.&lt;/p&gt;
+
+&lt;p&gt;Macklin-Cordes, J. L., Moran, S. P., &amp;amp; Round, E. R. (2016). Evaluating information loss from phonological dimensionality reduction. Presented at the SST2016 Satellite Symposium: The role of predictability in shaping human language sound patterns, Western Sydney University, Australia. &lt;a href=&#34;https://doi.org/https://dx.doi.org/10.6084/m9.figshare.4465976&#34; target=&#34;_blank&#34;&gt;https://doi.org/https://dx.doi.org/10.6084/m9.figshare.4465976&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Macklin-Cordes, J. L., &amp;amp; Round, E. R. (2015). High-definition phonotactics reflect linguistic pasts. In J. Wahle, M. Köllner, H. Baayen, G. Jäger, &amp;amp; T. Baayen-Oudshoorn (Eds.), Proceedings of the 6th Conference on Quantitative Investigations in Theoretical Linguistics. Tübingen: University of Tübingen.&lt;/p&gt;
+
+&lt;p&gt;Nichols, J. (1997). Sprung from two common sources: Sahul as a linguistic area. In P. McConvell &amp;amp; N. Evans (Eds.), Archaeology and Linguistics: Aboriginal Australia in global perspective. Melbourne: Oxford University Press.
+Wichmann, S., Holman, E. W., &amp;amp; Brown, C. H. (Eds.). (2016). The ASJP database (version 17).&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Robots who read grammars [poster]</title>
+      <link>/publication/macklin-cordes_robots_2017/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +1000</pubDate>
+      
+      <guid>/publication/macklin-cordes_robots_2017/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -296,13 +328,12 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-id/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +1000</pubDate>
+      <title>High-definition phonotactics reflect linguistic pasts</title>
+      <link>/publication/macklin-cordes_high-definition_2015/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +1000</pubDate>
       
-      <guid>/publication/person-re-id/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/macklin-cordes_high-definition_2015/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -350,16 +381,6 @@ Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +1000</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
