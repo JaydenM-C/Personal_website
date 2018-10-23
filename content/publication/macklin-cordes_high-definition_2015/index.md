@@ -38,7 +38,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Phylogenetic signal", "Phylogenetic comparative methods", "Phonotactics", "Pama-Nyungan", "Ngumpin-Yapa", "Yolngu"]
+tags = ["Phylogenetic signal", "Phylogenetic comparative methods", "Phonotactics", "Pama-Nyungan", "Ngumpin-Yapa", "Yolngu", "QITL-6"]
 
 # Links (optional).
 url_pdf = "https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/67189/M-Cordes_Round.pdf?sequence=1&isAllowed=y"

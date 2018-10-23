@@ -38,7 +38,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Linguistic typology", "Automation", "Data", "Pama-Nyungan"]
+tags = ["Linguistic typology", "Phonology", "Computational methods", Automation", "Data", "Sahul", "Pama-Nyungan", "CoEDL"]
 
 # Links (optional).
 url_pdf = ""
