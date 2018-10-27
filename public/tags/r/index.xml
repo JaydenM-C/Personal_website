@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Jayden Macklin-Cordes</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Jayden Macklin-Cordes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Jayden L. Macklin-Cordes</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computational Linguistics template</title>
+      <link>/project/cltemplate/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +1000</pubDate>
+      
+      <guid>/project/cltemplate/</guid>
+      <description>Earlier this year, I wrote an article for the journal Computational Linguistics. I&amp;rsquo;m a big fan of R Markdown (especially combined with Bookdown) and already had work for the paper written up in R Markdown format, so I was keen to stick with it when writing up the article. However, Computational Linguistics requires articles to be submitted using its own \LaTeX template. This forced me to learn about templates in R Markdown and come up with a solution so I could continue to write my paper in Rstudio and knit my markdown document to a Computational Linguistics style PDF.</description>
+    </item>
+    
+  </channel>
+</rss>

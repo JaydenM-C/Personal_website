@@ -1,10 +1,10 @@
 +++
 # Projects widget.
 widget = "projects"
-active = false
+active = true
 date = 2016-04-20T00:00:00
 
-title = "Projects"
+title = "R Projects"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -29,17 +29,17 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
+#[[filter]]
+#  name = "All"
+#  tag = "*"
 
-[[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
+#[[filter]]
+#  name = "Deep Learning"
+#  tag = "Deep Learning"
 
-[[filter]]
-  name = "Other"
-  tag = "Demo"
+#[[filter]]
+#  name = "Other"
+#  tag = "Demo"
 
 +++
 
