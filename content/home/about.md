@@ -29,4 +29,4 @@ weight = 5
 
 I am a PhD candidate in UQ's [Ancient Language Lab](https://languages-cultures.uq.edu.au/ancient-language-lab) and an affiliate of the [Centre of Excellence for the Dynamics of Language (CoEDL)](http://www.dynamicsoflanguage.edu.au/). I'm discovering what the sound patterns of indigenous languages in Australia and New Guinea can tell us about the linguistic prehistory of [Sahul](https://en.wikipedia.org/wiki/Australia_(continent)) using comptuational phylogenetic methods.
 
-This website is a place for me to share my work and discuss my experiences as I persue my various projects. I'm not sure what, if anything, will be interesting or useful to others, but I will share what I can, just in case.
+This website is a place for me to share my work and discuss my experiences as I pursue various projects. I'm not sure what, if anything, will be interesting or useful to others, but I will share what I can, just in case.
