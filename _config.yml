@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Jayden Macklin-Cordes"
-  avatar           : "profile.png"
-  bio              : "PhD candidate (linguistics)"
-  location         : "Australia"
-  employer         : "The University of Queensland"
+  avatar           : "headshot.jpeg"
+  bio              : "PhD candidate (linguistics), language and computation, data science"
+  location         : 
+  employer         : "The University of Queensland, Australia"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.au/citations?user=n-NtUVIAAAAJ&hl=en"
   email            :

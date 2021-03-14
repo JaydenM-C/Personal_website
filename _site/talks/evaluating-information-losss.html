@@ -1,0 +1,405 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Evaluating information loss from phonological dimensionality reduction - Jayden Macklin-Cordes</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Jayden Macklin-Cordes">
+<meta property="og:title" content="Evaluating information loss from phonological dimensionality reduction">
+
+
+  <link rel="canonical" href="http://localhost:4000/talks/evaluating-information-losss">
+  <meta property="og:url" content="http://localhost:4000/talks/evaluating-information-losss">
+
+
+
+  <meta property="og:description" content="As in many sciences, cross-linguistic data is often complex and multi-dimensional. The PHOIBLE database of phonological inventories (Moran et al. 2014) is one example, containing 2160 distinct segments across 2155 phoneme inventories. Each segment type is defined by a unique vector of (mostly binary) distinctive phonetic and phonological features. This multivariate dataset can be modeled as a set of coordinates, where each variable (e.g. segment, its distinctive features, its presence in a language, the language’s genealogy and location) is an axis in high-dimensional space.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-12-16T00:00:00-08:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Jayden Macklin-Cordes",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Jayden Macklin-Cordes Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Jayden Macklin-Cordes</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Portfolio</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Blog Posts</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/markdown/">Guide</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/headshot.jpeg" class="author__avatar" alt="Jayden Macklin-Cordes">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Jayden Macklin-Cordes</h3>
+    <p class="author__bio">PhD candidate (linguistics), language and computation, data science</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Australia</li>
+      
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> The University of Queensland</li>
+      
+      
+      
+      
+       
+      
+        <li><a href="https://twitter.com/JaydenC"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/JaydenM-C"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+        <li><a href="https://www.stackoverflow.com/users/https://stackoverflow.com/users/7718843/jaydenm-c"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com.au/citations?user=n-NtUVIAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+      
+      
+        <li><a href="https://orcid.org/0000-0003-1910-3969"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Evaluating information loss from phonological dimensionality reduction">
+    <meta itemprop="description" content="As in many sciences, cross-linguistic data is often complex and multi-dimensional. The PHOIBLE database of phonological inventories (Moran et al. 2014) is one example, containing 2160 distinct segments across 2155 phoneme inventories. Each segment type is defined by a unique vector of (mostly binary) distinctive phonetic and phonological features. This multivariate dataset can be modeled as a set of coordinates, where each variable (e.g. segment, its distinctive features, its presence in a language, the language’s genealogy and location) is an axis in high-dimensional space.">
+    <meta itemprop="datePublished" content="December 16, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Evaluating information loss from phonological dimensionality reduction
+</h1>
+          
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="2016-12-16T00:00:00-08:00">December 16, 2016</time></p>
+        
+        
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>As in many sciences, cross-linguistic data is often complex and multi-dimensional. The PHOIBLE database of phonological inventories (Moran et al. 2014) is one example, containing 2160 distinct segments across 2155 phoneme inventories. Each segment type is defined by a unique vector of (mostly binary) distinctive phonetic and phonological features. This multivariate dataset can be modeled as a set of coordinates, where each variable (e.g. segment, its distinctive features, its presence in a language, the language’s genealogy and location) is an axis in high-dimensional space.</p>
+
+<p>Often, such high dimensionality is reduced during analysis. For example, methods which match segments between phonological inventories, such as phonetic string alignment algorithms used for the automated detection of cognates or phonetic similarity measures, typically collapse the vast variability of segment types into as few as ten sound classes. What is unclear is how much information is lost and whether this loss is uniform across languages, subgroups and linguistic areas. This question is important given the increase in publications using large cross-linguistic databases that conflate phonological variability, such as the Automated Similarity Judgment Program (ASJP; Wichmann et al. 2016), and quantitative approaches using these datasets to approximate phonological diversity, linguistic distance measures, language classification, etc.</p>
+
+<p>Presented here is a method for empirically tracking information loss resulting from dimensionality reduction procedures. We evaluate several common procedures and demonstrate that information loss varies significantly across the world’s languages and between different methods, and further, information loss is correlated with broad-scale linguistic genealogy and geography.</p>
+
+<h3 id="methodology">Methodology</h3>
+
+<p>To measure information loss in a given language for a given dimensionality reduction procedure, we use a simple ‘conflation index’, c, which compares the number of distinct phonemic categories in the language after reduction, nreduced, with the full number of distinct categories prior to reduction ninitial. Given that a maximally conflated inventory would contain 1 category, and thus be reduced by (ninitial - 1) phonemes, we define c as (ninitial - nreduced)/(ninitial - 1). We measure c for each language in PHOIBLE for each reduction procedure, and examine its distribution among geographic and genealogical groups. The reduction procedures examined are mappings onto (1) the ASJP orthography (Wichmann et al. 2016); (2) the SCA inventory (List 2012); and (3) Dolgopolsky’s macro-phoneme set (Dolgopolsky 1964). Resulting conflation levels are compared across Glottolog continent-level Areas and Families (Hammarström et al. 2016).</p>
+
+<h3 id="results">Results</h3>
+
+<p>An example of c values, for the ASJP procedure, is in Fig. 1. Distributions of c are significantly non- normal (Shapiro-Wilk’s W, alpha=0.05) within the majority of Glottolog areas and families for all reduction procedures. Accordingly, comparisons are made by non-parametric methods. Kruskal-Wallis H tests a null hypothesis that samples are from the same underlying distribution.</p>
+
+<p>We first examined whether the distribution of c varied between continent-sized areas. Results allow us to reject to hypothesis that samples from distinct continental areas are all drawn from the same population. Post-hoc pair-wise comparisons between each of the 10 area pairs reveal a significant difference (at an adjusted alpha rate corresponding to single-comparison rate of 0.05) between Pacific and Africa, the Americas and Asia; and Africa and the Americas (ASJP method), between all pairs bar Europe–Africa and Europe-Asia (SCA), and between all bar Europe and Africa (Dolgopolsky).</p>
+
+<p>To examine genealogical variation in the conflation index c, we compared Glottolog families within areas, asking if samples were drawn from a single area-specific population. Hypothesis testing requires families of reasonable size (we use n&gt;=10). For all three inventory reduction procedures, all areas do contain families with significantly different distributions of c, with the exception of Europe in the ASJP condition. Post-hoc pair-wise testing reveals considerable variation in the proportion of pairs which differ significantly, across areas and across procedures. In Africa, only few family pairs are significantly different (1%-20% across the three reduction procedures, n=15) and similarly in the Americas (4%-22%, n=171). In Asia pair-wise, significant differences between families are more common (24%-33%, n=45), as they were in Europe for the non-ASJP procedures (30%, n=10). In the Pacific, too few families are represented sufficient richly to comment.</p>
+
+<h3 id="discussion">Discussion</h3>
+
+<p>All three conflation methods affect continental Areas unequally to a statistically significant degree. Moreover, the variation within Areas differs: Asia is most diversely affected, Africa and the Americas are less so yet still show statistically significant diversity. Only within Europe is there no statistically significant difference among families, and only for one reduction procedure, ASJP. Consequently, research designs employing phonologically conflated data and tested initially with European languages may not generalise as expected to other areas of the world.</p>
+
+<p>Conflation methods affect continental Areas in differing patterns and to varying extents. Dolgopolsky’s method, which effects the most radical conflation, has the starkest disparity across Areas, relative to ASJP and SCA methods. Comparing Areas according to the disparities between families when different methods are employed: Europe is the most uniform and Asia is the least, however the methods produce both different magnitudes and rankings of disparities throughout.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>High dimensionality is a hallmark of cross-linguistic data. As databases grow and research focus turns to macro-scale phenomena, attention should be paid to the kind and quantity of information lost during data processing and analysis. In this study, we have evaluated how information is lost through three processes which conflate phonological information, including the method employed by ASJP and subsequently used in numerous publications for topics including comparing segments between languages, for proposing regular sound correspondence, for approximating phonological distance and diversity, and for proposing genealogical classifications. However, as we show here, reducing phonological data before undertaking these analyses has broad but quantifiable ramifications for the results reported in these studies. Research designs should be robustly evaluated, using tools such as the conflation index presented here, c, to ensure broader generalizability and to highlight the shortcomings of research using conflated phonological information.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/talks/evaluating-information-losss" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/talks/evaluating-information-losss" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/talks/evaluating-information-losss" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/JaydenM-C"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Jayden Macklin-Cordes. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+
