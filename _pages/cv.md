@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,17 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
+
 **PhD (linguistics)**, The University of Queensland, 2021 (under examination)
   * Thesis title: _Phonotactics in historical linguistics: Quantitative interrogation of a novel data source_
   * Supervisors: Dr Erich Round, Dr Simon Greenhill
+
 **BA (Hons, Class I)**, The University of Queensland, 2015
   * Major in linguistics
   * Minor in Aboriginal and Torres Strait Islander Studies
   
-Skills
-======
+## Skills
+
 **Technical**
 * Transcription, data annotation (Australian English, Aboriginal English, Indigenous languages)
 * OCR, speech-to-text, text-to-speech, machine translation
@@ -33,8 +34,8 @@ Skills
 * Technical report writing, public presentation, academic publication.
 * Project management, winning grant funds, team coordination.
 
-Selected experiences
-======
+## Selected experiences
+
 **Project lead, ARC CoEDL Transdisciplinary and Innovation Grant**, 2016--2019
   * Project title: _A ‘data well’ prototype for Sahul phonologies_
   * Grant value $19,909
@@ -50,26 +51,27 @@ Selected experiences
   * Transcription of archived Yukulta (Ganggalida) field recordings.
   * Digitisation of library resources, data entry for microvariate typology project. Presentation of results at the Australian Linguistic Society Annual Conference (2014).
 
-Professional development
-======
+## Professional development
+
 **Summer Schools**
   * 2018 CoEDL Summer School, Australian National University, Canberra.
   * 2017 LSA Linguistic Institute, University of Kentucky, Lexington, USA.
   * 2016 Quantitative Methods Spring School, Max Planck Institute for the Science of Human History, Jena, Germany.
+
 **Workshops**
   * Python with Spyder: an introduction to data science (UQ Centre for Digital Scholarship)
   * Heatmaps in R for intermediate users (UQ Centre for Digital Scholarship)
   * R visualisations using ggplot2, intermediate (UQ Centre for Digital Scholarship)
   * Advances in Visual Methods for Linguistics (2016 workshop), The University of Queensland.
 
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+## Talks
+
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
